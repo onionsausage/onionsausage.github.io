@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title> An App </title>
+    <link rel="stylesheet" href="style_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<section class = "sub-header">
+    <nav>
+        <a href = "indexx_1.html"><img src="eduford_img/logo.png"alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="indexx_1.html">HOME</a></li>
+                    <li><a href="about_1.html">ABOUT</a></li>
+                    <li><a href="course_1.html">Course</a></li>
+                    <li><a href="blog_1.html">Blog</a></li>
+                    <li><a href="contact_1.html">Contact</a></li>
+                </ul>            
+        </div>        
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Statistics</h1>
+</section>
+
+<!-- Course-->
+    <section class="course">
+    <h1>Money that you will pay</h1>
+    <p>hahahaha<br>one billion lol</p>
+    <div class="row">
+        <div class ="course-col">
+        <h3> Hello</h3>
+        <p>now now now</p>    
+        </div>
+        <div class ="course-col">
+        <h3> Hola</h3>
+        <p>now now now</p>    
+        </div>
+        <div class ="course-col">
+        <h3> Hello</h3>
+        <p>now now now</p>    
+        </div>
+    </div>
+</section>
+    <p> what is this text?<br> It is not in either course section or campus section</p>
+    
+<!-- facilities-->
+<section class = "facilities">
+    <h1>Our Facilities</h1>
+    <p>all rights reserved</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png">
+            <h3>World Class PROGRAM!</h3>
+            <p>hahah</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png">
+            <h3>sports</h3>
+            <p>hahah</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png">
+            <h3>Food desu</h3>
+            <p>hahah</p>
+        </div>
+    </div>
+</section>    
+    
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p> all rights reserved. All the copyrights to rgtba food ai</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with HTML<i class="fa fa-heart-o"></i></p>
+</section>
+    
+
+<!-- Java script for toggle menu-->   
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";   
+}
+    
+</script>
+</body>
+</html>

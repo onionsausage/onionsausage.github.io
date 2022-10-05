@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title> An App </title>
+    <link rel="stylesheet" href="style_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<section class = "sub-header">
+    <nav>
+        <a href = "indexx_1.html"><img src="eduford_img/logo.png"alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="indexx_1.html">HOME</a></li>
+                    <li><a href="about_1.html">ABOUT</a></li>
+                    <li><a href="course_1.html">Course</a></li>
+                    <li><a href="blog_1.html">Blog</a></li>
+                    <li><a href="contact_1.html">Contact</a></li>
+                </ul>            
+        </div>        
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>cONtaCt uS!</h1>
+        
+</section>
+<!-- acontact us-->
+<section class='location'>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.514664110887!2d126.64676631507241!3d37.40130847982922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b779ec484c309%3A0x6f8dfa90812fcddb!2sIncheon%20Posco%20Academy!5e0!3m2!1sen!2sus!4v1664856918937!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>PosCo Academy</h5>
+                    <p>hahahahahaha LOLOLOLOL</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+8 010-8888-0009</h5>
+                    <p>not working 24hour</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>haha@gmail.com</h5>
+                    <p>Atlantis sooooo boring</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type"text" name="name" placeholder="Enter Your name" required>
+                <input type"email" name="email" placeholder="Enter email address" required>
+                <input type"text" name="text" placeholder="Enter Your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send MEssage</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    
+    
+</section>
+    
+<!--Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p> all rights reserved. All the copyrights to rgtba food ai</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with HTML<i class="fa fa-heart-o"></i></p>
+</section>
+    
+
+<!-- Java script for toggle menu-->   
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";   
+}
+    
+</script>
+</body>
+</html>
